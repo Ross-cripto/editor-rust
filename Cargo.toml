@@ -1,0 +1,10 @@
+[package]
+name = "icel"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+iced = {git = "https://github.com/iced-rs/iced.git", rev = "refs/tags/text-editor", features = ["debug", "tokio", "highlighter"]}
+tokio = {version = "1.47.1", features = ["fs"] }
+rfd = "0.15.4"
+
